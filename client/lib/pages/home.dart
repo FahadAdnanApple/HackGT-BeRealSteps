@@ -364,7 +364,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                           padding: EdgeInsets.only(
                                               top: 10, left: 10),
                                           child: Text(
-                                            "DISCOVER YOU'RE\nFRIENDS OF FRIENDS",
+                                            "DISCOVER YOUR\nFRIENDS",
                                             style: TextStyle(
                                                 fontSize: 28,
                                                 color: Colors.white,
@@ -408,7 +408,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                                   ),
                                                   child: Center(
                                                       child: Text(
-                                                    "Share ReBeal in order to discover",
+                                                    "Share BeStep. in order to discover",
                                                     style: TextStyle(
                                                         fontFamily: "icons.ttf",
                                                         color: Colors.black,

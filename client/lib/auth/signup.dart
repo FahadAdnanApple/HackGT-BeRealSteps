@@ -156,7 +156,7 @@ class _SignupState extends State<Signup> {
                           ),
                           child: Center(
                               child: Text(
-                            "Continuer",
+                            "Continue",
                             style: TextStyle(
                                 fontFamily: "icons.ttf",
                                 color: Colors.black,

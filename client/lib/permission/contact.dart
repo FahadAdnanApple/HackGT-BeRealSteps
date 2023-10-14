@@ -60,7 +60,7 @@ class _ContactPageState extends State<ContactPage> {
                             ),
                           );
                         },
-                        child: Text("Passer",
+                        child: Text("Skip",
                             style: TextStyle(
                               fontSize: 16,
                               color: Color.fromARGB(255, 61, 61, 61),
@@ -90,7 +90,7 @@ class _ContactPageState extends State<ContactPage> {
                   textAlign: TextAlign.center,
                 ),
                 Text(
-                  "Find you're friends that already\nuse Rebeal.",
+                  "Find you're friends that already\nuse BeStep.",
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 16,

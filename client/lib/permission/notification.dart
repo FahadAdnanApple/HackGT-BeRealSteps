@@ -31,7 +31,7 @@ class _NotificationPageState extends State<NotificationPage> {
               height: 130,
             ),
             Text(
-              "Quand poster ton\nReBeal ?\n",
+              "When to post your \nBeStep ?\n",
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 35,
@@ -39,7 +39,7 @@ class _NotificationPageState extends State<NotificationPage> {
               textAlign: TextAlign.center,
             ),
             Text(
-              "La seule façon de savoir quand poster ton\nReBeal est d'activer les notiifcations !",
+              "The only way to know when to post your\nBeStep is to enable notifications (not working on iOS due to lack of developer account :( )!",
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 16,
@@ -59,7 +59,7 @@ class _NotificationPageState extends State<NotificationPage> {
               child: Column(
                 children: [
                   Text(
-                    "\nMerci d'activer les\n notifications",
+                    "\nPlease enable\nnotifications",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 16,
@@ -67,7 +67,7 @@ class _NotificationPageState extends State<NotificationPage> {
                     textAlign: TextAlign.center,
                   ),
                   Text(
-                    "\nToutes les notifications sur ReBeal\nsont silencieuse sauf celle qui\nt'indique quand poster ron BeReal\n une fois par jour.",
+                    "\n All Notifications on BeStep. \n are silent because iOS requires \n us to have paid developer accounts \n to use push notifs",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 12,
@@ -114,7 +114,7 @@ class _NotificationPageState extends State<NotificationPage> {
                         color: Color.fromARGB(255, 0, 120, 232),
                         alignment: Alignment.center,
                         child: Text(
-                          "Autoriser",
+                          "Allow",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 16,
@@ -126,7 +126,7 @@ class _NotificationPageState extends State<NotificationPage> {
                     height: 10,
                   ),
                   Text(
-                    "Autoriser dans le\nRésumé programmé",
+                    "Allow when using this app",
                     style: TextStyle(
                         color: Color.fromARGB(255, 89, 89, 89),
                         fontSize: 16,
@@ -145,7 +145,7 @@ class _NotificationPageState extends State<NotificationPage> {
                     height: 10,
                   ),
                   Text(
-                    "Refuser",
+                    "NO ACCESS?!?!?",
                     style: TextStyle(
                         color: Color.fromARGB(255, 89, 89, 89),
                         fontSize: 16,

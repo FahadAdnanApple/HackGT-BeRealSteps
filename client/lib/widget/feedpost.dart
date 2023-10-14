@@ -35,13 +35,13 @@ class _FeedPostWidgetState extends State<FeedPostWidget> {
     String timeAgo;
 
     if (difference.inSeconds < 60) {
-      timeAgo = 'A few seconds ago';
+      timeAgo = 'Few seconds ago';
     } else if (difference.inMinutes < 60) {
       int minutes = difference.inMinutes;
       timeAgo = 'Few $minutes minute${minutes > 1 ? 's' : ''} ago';
     } else {
       int hours = difference.inHours;
-      timeAgo = 'Few $hours heure${hours > 1 ? 's' : ''} ago';
+      timeAgo = '$hours hours${hours > 1 ? 's' : ''} ago';
     }
     return Container(
         color: Colors.black,

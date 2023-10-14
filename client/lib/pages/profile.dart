@@ -93,7 +93,7 @@ class _ProfilePageState extends State<ProfilePage> {
   void _shareText(String name) {
     Share.share(
       "https://rebe.al/$name",
-      subject: "Discover $name on ReBeal.",
+      subject: "Discover $name on BeStep.",
       sharePositionOrigin: Rect.fromLTWH(0, 0, 10, 10),
     );
   }
@@ -403,7 +403,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                   : isFollower()
                                       ? Container()
                                       : Text(
-                                          'Add you\'re true friends on ReBeal.',
+                                          'Add you\'re friends on BeStep.',
                                           style: TextStyle(
                                             color: ReBealColor.ReBealLightGrey,
                                             fontSize: 13,

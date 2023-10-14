@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
           theme: ThemeData(brightness: Brightness.dark),
-          title: 'ReBeal.',
+          title: 'BeStep.',
           debugShowCheckedModeBanner: false,
           home: SplashPage()),
     );

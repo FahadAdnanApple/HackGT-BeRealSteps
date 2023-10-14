@@ -37,7 +37,7 @@ class _GridPostWidgetState extends State<GridPostWidget> {
         timeAgo = '$minutes minute${minutes > 1 ? 's' : ''} ago';
       } else {
         int hours = difference.inHours;
-        timeAgo = 'A few $hours hours${hours > 1 ? 's' : ''} ago';
+        timeAgo = '$hours hours${hours > 1 ? 's' : ''} ago';
       }
     }
 
