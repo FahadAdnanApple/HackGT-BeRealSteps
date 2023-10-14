@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "366770963195",
+    "firebase_url": "https://berealstep-default-rtdb.firebaseio.com",
+    "project_id": "berealstep",
+    "storage_bucket": "berealstep.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366770963195:android:c7c07da7bf49a165dda65e",
+        "android_client_info": {
+          "package_name": "com.threads.clone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLNjsftwBio7xX3ddbiIgiFhZQgOMlBTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
