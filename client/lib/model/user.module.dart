@@ -12,6 +12,9 @@ class UserModel extends Equatable {
   String? profilePic;
   String? createAt;
   String? fcmToken;
+  int? daily;
+  int? weekly;
+  bool? picture_taken;
   List<String>? followersList;
   List<String>? followingList;
 
@@ -27,6 +30,9 @@ class UserModel extends Equatable {
       this.createAt,
       this.followingList,
       this.followersList,
+      this.daily,
+      this.weekly,
+      this.picture_taken,
       this.fcmToken});
 
   UserModel.fromJson(Map<dynamic, dynamic>? map) {
@@ -44,6 +50,9 @@ class UserModel extends Equatable {
     key = map['key'];
     createAt = map['createAt'];
     fcmToken = map['fcmToken'];
+    daily = map['daily'];
+    weekly = map['weekly'];
+    picture_taken = map['picture_taken'];
     if (map['followingList'] != null) {
       followingList = <String>[];
       map['followingList'].forEach((value) {
@@ -64,7 +73,10 @@ class UserModel extends Equatable {
       'profilePic': profilePic,
       'fcmToken': fcmToken,
       'followerList': followersList,
-      'followingList': followingList
+      'followingList': followingList,
+      'daily': daily,
+      'weekly': weekly,
+      'picture_taken': picture_taken,
     };
   }
 
@@ -79,6 +91,9 @@ class UserModel extends Equatable {
     String? localisation,
     String? key,
     String? fcmToken,
+    int? daily,
+    int? weekly,
+    bool? picture_taken,
     List<String>? followingList,
     List<String>? followersList,
   }) {
@@ -95,6 +110,9 @@ class UserModel extends Equatable {
       fcmToken: fcmToken ?? this.fcmToken,
       followersList: followersList ?? this.followersList,
       followingList: followingList ?? this.followingList,
+      daily: daily ?? this.daily,
+      weekly: weekly ?? this.weekly,
+      picture_taken: picture_taken ?? this.picture_taken,
     );
   }
 
@@ -111,6 +129,9 @@ class UserModel extends Equatable {
         fcmToken,
         profilePic,
         followersList,
-        followingList
+        followingList,
+        daily,
+        weekly,
+        picture_taken
       ];
 }
