@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
       initProfile();
     });
     _scrollController.addListener(_scrollListener);
-    _tabController = TabController(length: 3, vsync: this);
+    _tabController = TabController(length: 4, vsync: this);
     super.initState();
   }
 
@@ -225,6 +225,18 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                         ),
                       )),
                     )),
+                    FadeInUp(
+                        child: Padding(
+                      padding: EdgeInsets.only(right: 20),
+                      child: Tab(
+                          child: Text(
+                        'Steps',
+                        style: TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      )),
+                    )),
                   ],
                 ),
           elevation: 0,
@@ -282,7 +294,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                           child: GridView.builder(
                                               gridDelegate:
                                                   SliverGridDelegateWithFixedCrossAxisCount(
-                                                      crossAxisCount: 3,
+                                                      crossAxisCount: 4,
                                                       childAspectRatio: 0.8,
                                                       mainAxisSpacing: 10,
                                                       crossAxisSpacing: 10),
@@ -364,7 +376,11 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                           padding: EdgeInsets.only(
                                               top: 10, left: 10),
                                           child: Text(
+<<<<<<< HEAD
                                             "DISCOVER YOUR\nFRIENDS",
+=======
+                                            "DISCOVER YOUR\nFRIENDS OF FRIENDS",
+>>>>>>> d1fcea1 (added tab)
                                             style: TextStyle(
                                                 fontSize: 28,
                                                 color: Colors.white,
@@ -443,6 +459,106 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                     );
                                   });
                             }),
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                Container(
+                                  height: 140,
+                                ),
+                                Container(
+                                  width:
+                                      MediaQuery.of(context).size.width / 1.1,
+                                  decoration: BoxDecoration(
+                                      color: ReBealColor.ReBealDarkGrey,
+                                      borderRadius: BorderRadius.circular(20)),
+                                  alignment: Alignment.topCenter,
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Padding(
+                                          padding: EdgeInsets.only(
+                                              top: 20, left: 10),
+                                          child: ClipRRect(
+                                              borderRadius:
+                                                  BorderRadius.circular(5),
+                                              child: Container(
+                                                height: 25,
+                                                width: 40,
+                                                color: Colors.white,
+                                                alignment: Alignment.center,
+                                                child: Text(
+                                                  "NEW",
+                                                  style: TextStyle(
+                                                      fontSize: 13,
+                                                      color: Colors.black,
+                                                      fontWeight:
+                                                          FontWeight.w800),
+                                                ),
+                                              ))),
+                                      Padding(
+                                          padding: EdgeInsets.only(
+                                              top: 10, left: 10),
+                                          child: Text(
+                                            "DISCOVER YOUR\nFRIENDS OF FRIENDS",
+                                            style: TextStyle(
+                                                fontSize: 28,
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.w700),
+                                          )),
+                                      Container(
+                                          height: 300,
+                                          child: ListView.builder(
+                                            physics:
+                                                NeverScrollableScrollPhysics(),
+                                            itemBuilder: (context, index) {
+                                              return Container(
+                                                  height: 60,
+                                                  child: UserTilePage(
+                                                    user:
+                                                        state.userlist![index],
+                                                    isadded: true,
+                                                  ));
+                                            },
+                                            itemCount: 2,
+                                          )),
+                                      Padding(
+                                          padding: EdgeInsets.only(
+                                            left: 15,
+                                            bottom: 20,
+                                            right: 15,
+                                          ),
+                                          child: RippleButton(
+                                              splashColor: Colors.transparent,
+                                              child: Container(
+                                                  height: 55,
+                                                  width: MediaQuery.of(context)
+                                                          .size
+                                                          .width -
+                                                      40,
+                                                  decoration: BoxDecoration(
+                                                    color: Colors.white,
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            15),
+                                                  ),
+                                                  child: Center(
+                                                      child: Text(
+                                                    "Share ReBeal in order to discover",
+                                                    style: TextStyle(
+                                                        fontFamily: "icons.ttf",
+                                                        color: Colors.black,
+                                                        fontSize: 15,
+                                                        fontWeight:
+                                                            FontWeight.w600),
+                                                  ))),
+                                              onPressed: () {})),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
                           ]))));
   }
 }
