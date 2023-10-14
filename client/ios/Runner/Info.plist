@@ -16,12 +16,6 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>ReBeal.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This app needs access to your photo library to allow you to select and upload photos for sharing with your friends.</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Votre message d'autorisation pour l'accès au microphone ici</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Votre message d'autorisation ici</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -32,8 +26,14 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Votre message d'autorisation ici</string>
 	<key>NSContactsUsageDescription</key>
 	<string>ReBeal t'indiquera qui dans tes contacs est déjà sur ReBeal. Tes contacts ne seront pas enregistrés ni partagés avec personne.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Votre message d'autorisation pour l'accès au microphone ici</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs access to your photo library to allow you to select and upload photos for sharing with your friends.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIBackgroundModes</key>

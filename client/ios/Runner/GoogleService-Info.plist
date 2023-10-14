@@ -9,7 +9,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.rebeal.clone</string>
+	<string>com.rebeal1.clone</string>
 	<key>PROJECT_ID</key>
 	<string>berealstep</string>
 	<key>STORAGE_BUCKET</key>
@@ -25,7 +25,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:366770963195:ios:d2be2617d9555c30dda65e</string>
+	<string>1:366770963195:ios:0146455f68f25a77dda65e</string>
 	<key>DATABASE_URL</key>
 	<string>https://berealstep-default-rtdb.firebaseio.com</string>
 </dict>

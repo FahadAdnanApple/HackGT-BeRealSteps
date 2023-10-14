@@ -17,25 +17,12 @@ List<CameraDescription> cameras = [];
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   cameras = await availableCameras();
-  // if (d.Platform.isIOS)
-  //   Firebase.initializeApp();
-  // else
-  //   await Firebase.initializeApp(
-  //       options: FirebaseOptions(
-  //           apiKey: "",
-  //           authDomain: "",
-  //           databaseURL: "",
-  //           projectId: "",
-  //           storageBucket: "",
-  //           messagingSenderId: "",
-  //           appId: "",
-  //           measurementId: ""));
-
-// ...
-
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  if (d.Platform.isIOS)
+    Firebase.initializeApp();
+  else
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
   setupDependencies();
   final sharedPreferences = await SharedPreferences.getInstance();
   runApp(MyApp(
