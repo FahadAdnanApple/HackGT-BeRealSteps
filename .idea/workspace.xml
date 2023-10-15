@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b176782-0b41-40a5-b67e-3b562799961d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/client/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/client/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/client/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/client/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/notification/notification.dart" beforeDir="false" afterPath="$PROJECT_DIR$/client/lib/notification/notification.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/pages/feed.dart" beforeDir="false" afterPath="$PROJECT_DIR$/client/lib/pages/feed.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/pages/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/client/lib/pages/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/pages/profile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/client/lib/pages/profile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/pages/settings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/client/lib/pages/settings.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/permission/contact.dart" beforeDir="false" afterPath="$PROJECT_DIR$/client/lib/permission/contact.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/permission/notification.dart" beforeDir="false" afterPath="$PROJECT_DIR$/client/lib/permission/notification.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/state/auth.state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/client/lib/state/auth.state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/widget/feedpost.dart" beforeDir="false" afterPath="$PROJECT_DIR$/client/lib/widget/feedpost.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/widget/gridpost.dart" beforeDir="false" afterPath="$PROJECT_DIR$/client/lib/widget/gridpost.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/widget/share.dart" beforeDir="false" afterPath="$PROJECT_DIR$/client/lib/widget/share.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/pubspec.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/client/ios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageComponent.swift" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Wl8871MGaliN3m9KRA4c1mpS5x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/fahadadnan/Desktop/HackGT-BeRealSteps&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/assets/db" />
+      <recent name="$PROJECT_DIR$/client/ios/Runner" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b176782-0b41-40a5-b67e-3b562799961d" name="Changes" comment="" />
+      <created>1697295643263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697295643263</updated>
+    </task>
+    <servers />
+  </component>
+</project>
